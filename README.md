@@ -11,7 +11,10 @@ Install the above packages with pip
 
 See https://bitbucket.org/rtaylor/pylbfgs/src/master/ and https://www.jianshu.com/p/a9f1795e08d9 for the detail information of installing pylbfgs.
 
+./main_python3.py
+
 ## Python2 Version
 ### Necessary packages
-tensorflow=1.12, scipy, glob, os, imageio, time
+tensorflow=1.12, scipy, glob, os, imageio, time, numpy, numbers, matplotlib, abc, pywt, itertools, operator
 
+./main.py
