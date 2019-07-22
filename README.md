@@ -9,3 +9,4 @@ tensorflow==1.12, numpy, matplotlib, scipy, imageio, cvxpy
 
 Install the above packages with pip
 
+See https://bitbucket.org/rtaylor/pylbfgs/src/master/ and https://www.jianshu.com/p/a9f1795e08d9 for the detail information of installing pylbfgs.
