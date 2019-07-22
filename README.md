@@ -5,16 +5,7 @@ There're two versions for the compressive sensing code: main_python2.py and main
 
 ## Python2 Version
 ### Necessary packages
-tensorflow==1.12
-numpy
-
-matplotlib
-
-scipy
-
-imageio
-
-cvxpy
+tensorflow==1.12, numpy, matplotlib, scipy, imageio, cvxpy
 
 Install the above packages with pip
 
