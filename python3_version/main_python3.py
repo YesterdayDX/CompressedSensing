@@ -127,18 +127,13 @@ def compressed_sensing(Xorig, sample_rate):
 def main():
 	global _image_dims
 	# read original image
-	Xorig = imio.imread('../1.jpg')
+	Xorig = imio.imread('./Escher_Waterfall.jpg')
 	Xorig = np.array(Xorig)
 
 	print("Image shape", Xorig.shape)
 
 	s = 0.1 # sample rate
 	_image_dims = [Xorig.shape[1], Xorig.shape[0]]
-
-	# compressed_sensing(Xorig, s)
-	# print(_ri_vector)
-	# return
-
 
 	IMG_orig = tf.placeholder(tf.uint8)
 	sample_rate = tf.placeholder(tf.float32)
@@ -151,7 +146,7 @@ def main():
 		plt.imshow(Xorig)
 		plt.subplot(1,2,2)
 		plt.imshow(Z)
-		plt.savefig('output_large'+str(s)+'.jpg')
+		plt.savefig('output_python3_'+str(s)+'.jpg')
 
 
 main()
